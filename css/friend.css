@@ -6,6 +6,7 @@
 .friend .friend__avatar {
   width: 50px;
   border-radius: 38%;
+  margin-bottom: 15px;
 }
 .friend__avatar .g-avatar {
   width: 70px;
@@ -22,7 +23,6 @@
 }
 .friend__content .friend__name {
   display: block;
-
   margin-bottom: 5px;
 }
 .friend__content .friend__status,
@@ -48,4 +48,13 @@
 }
 .friend__now-listening i {
   font-size: 12px;
+}
+.friend__add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px 13px;
+  cursor: progress;
 }
